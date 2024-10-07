@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="PortfolioMini.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">David Ghiurcan</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+        
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+
+                          <li class="menu-list-items">
+                            <a class="links" href="#portfolio">
+                                  Portfolio
+                              </a>
+                    </li>
+                    
+                    <!-- <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li> -->
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+          <h1 class="my-heading">About Me</h1>
+          <p class="lead-para">
+            As a graduate from DCU, I focus on Python, Swift, and front-end development. 
+            I thrive on problem-solving and have a keen interest in honing my skills further. 
+            I bring a solid background in IT, with a grasp of Python,  iOS application development and a knack for tackling complex challenges. 
+            I am committed to working hard and continuously learning new skills. 
+          </p>
+          <p>
+            As part of my collaboration with the Advanced GM Software Development team, I worked closely with the AI team on the Artefact Labeller project. 
+            My main focus was frontend development, where I implemented new features using JavaScript and Angular.
+
+            Throughout the project, I expanded my technical skills by gaining proficiency in JavaScript and TypeScript, building on my foundation in HTML and CSS. 
+            I also actively participated in GUI design discussions, contributing to the creation of user-friendly interfaces by leveraging Angular and SpringBoot Maven frameworks.
+
+          </p>
+      </div>
+      <div class="about-image">
+          <img src="./Desktop/dcu.jpeg" alt="About Image">
+      </div>
+  </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-heading">
+          <h1 class="my-heading text-center">Featured Portfolio</h1>
+      </div>
+      <div class="portfolio-content">
+          <div class="my-row">
+              <div class="my-col">
+                  <a href="/aiofitness.html" class="my-card port-card"> <!-- Link for AIO Fitness -->
+                      <div class="image">
+                          <img src="./Desktop/aioimg.jpg" alt="Web Design Image">
+                      </div>
+                      <h3 class="greet-heading blue-text">AIO Fitness</h3>
+                      <p class="small-para blue-text">iOS Fitness Application</p>
+                  </a>
+              </div>
+              <div class="my-col">
+                  <a href="/dropify.html" class="my-card port-card"> <!-- Link for Dropify -->
+                      <div class="image">
+                          <img src="./Desktop/applogo.png" alt="Web Development Image">
+                      </div>
+                      <h3 class="greet-heading blue-text">Dropify</h3>
+                      <p class="small-para blue-text">Sneaker Toolkit & Monitor</p>
+                  </a>
+              </div>
+              <div class="my-col">
+                  <a href="/asteroid-annihilation.html" class="my-card port-card"> <!-- Link for Asteroid Annihilation -->
+                      <div class="image">
+                          <img src="./Desktop/aa.jpg" alt="Online Javascript Game">
+                      </div>
+                      <h3 class="greet-heading blue-text">Asteroid Annihilation</h3>
+                      <p class="small-para blue-text">Online Javascript Game</p>
+                  </a>
+              </div>
+          </div>
+          <div class="my-row">
+              <div class="my-col">
+                  <a href="/artifact-labeller.html" class="my-card port-card"> <!-- Link for Artifact Labeller -->
+                      <div class="image">
+                          <img src="./Desktop/gm.jpg" alt="Content Writing Image">
+                      </div>
+                      <h3 class="greet-heading blue-text">Artifact Labeller</h3>
+                      <p class="small-para blue-text">Front end Application</p>
+                  </a>
+              </div>
+              <div class="my-col">
+                  <a href="/antlrpage.html" class="my-card port-card"> <!-- Link for ANTLR4 Compiler Grammar Implementation -->
+                      <div class="image">
+                          <img src="./Desktop/antlr.png" alt="ANTLR4 Project Image">
+                      </div>
+                      <h3 class="greet-heading blue-text">ANTLR4 Compiler Grammar Implementation</h3>
+                      <p class="small-para blue-text">Grammar parsing and validation</p>
+                  </a>
+              </div>
+              <div class="my-col">
+                  <a href="/body-fat-prediction.html" class="my-card port-card"> <!-- Link for Body Fat Prediction Using ML -->
+                      <div class="image">
+                          <img src="./Desktop/dm.png" alt="Video Editing Image">
+                      </div>
+                      <h3 class="greet-heading blue-text">Body Fat Prediction Using ML</h3>
+                      <p class="small-para blue-text">Predictive analysis of body fat with regression models</p>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+
+            <div class="contact-details">
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">davidghiurcan5@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">(+353) 89 216 2990</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <!-- <h4>
+                Copyright © 2023 All rights reserved |
+                This portfolio website template is created 
+                  by GeeksforGeeks.
+            </h4> -->
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                      
+                      <li class="footer-list-items">
+                        <a class="footer-links" href="https://www.linkedin.com/in/david-ghiurcan-6852982b3/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
